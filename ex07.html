@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+    <style>
+        html {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: calibri;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        #menu {
+            display: flex;
+            width: 100vw;
+            height: 70px;
+            border-bottom: 1px solid #aaa;
+            box-sizing: border-box;
+            flex-shrink: 0; /* Garante que a altura sejafixa */
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 5px;
+        }
+        #titulo, #avatar{
+            display: flex;
+            align-items: center;
+            margin: 15px;
+        }
+        #texto-titulo{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+
+        #corpo {
+            display: flex;
+            flex-grow: 1; /* Ocupa o espaço restante */
+            width: 100vw;
+            height: 400px;
+            background-color: #444;
+            
+        }
+        #esquerda{
+            background-color: yellow;
+            width: 200px;
+        }
+        #direita{
+            background-color: cyan;
+            width: 100%;
+        }
+        #form{
+            border-radius: 10px;
+            color: white;
+            width: 60%;
+            height: 45%;
+            padding-top: 30px;
+        }
+        #email, #senha {
+            width: 100%;  
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: #1E90FF;
+            color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            height: 35px;
+        }
+        #botoes{
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+
+        #rodape {
+            align-items: center;
+            display: flex;
+            width: 100vw;
+            height: 80px;
+            border-top: 1px solid #aaa;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div id="titulo">
+            <img src="Imagens/CSS.png" alt="Logo css3" width="60" height="60">
+            <div id="texto-titulo">CSS3</div>
+        </div>
+        <div id="avatar">
+            <div id="nomeAvatar">Bill Gates</div>
+            <img src="Imagens/BillGatesAvatar.png" alt="Imagem de Bill Gates" width="60" height="60">
+        </div>
+    </div>
+    
+    <div id="corpo">
+        <div id="esquerda">
+            
+        </div>
+        <div id="direita">
+           
+        </div>
+    </div>
+
+    <div id="rodape">
+        <img src="Imagens/logo Fatec Jacarei.png" alt="Imagem Fatec" width="80" height="45">
+        <img src="Imagens/Logo CPS.png" alt="Imagem Centro de Paula Souza" width="75" height="70"></img>
+        <img src="Imagens/Governo do Estado SP.png"Imagem Governo São Paulo" width="75" height="60"></img>
+    </div>
+</body>
+</html>

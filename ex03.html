@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <style>
+        html {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: calibri;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        #menu {
+            display: flex;
+            width: 100vw;
+            height: 70px;
+            border-bottom: 1px solid #aaa;
+            box-sizing: border-box;
+            flex-shrink: 0; /* Garante que a altura sejafixa */
+        }
+        #corpo {
+            display: flex;
+            flex-grow: 1; /* Ocupa o espaço restante */
+            width: 100vw;
+            height: 400px;
+            background-color: #444;
+        }
+        #rodape {
+            display: flex;
+            width: 100vw;
+            height: 80px;
+            border-top: 1px solid #aaa;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <img src="./imagens/CSS.png" alt="" width="60" height="60" />
+        <div id="texto-titulo">CSS3</div>
+    </div>
+    </div>
+    <div id="corpo"></div>
+    <div id="rodape">
+        <img src="./imagens/logo Fatec Jacarei.png" alt="" width="87" height="41" />  
+        <img src="./imagens/Logo CPS.png" alt="" width="85" height="56"/>
+        <img src="./imagens/Governo do Estado SP.png" alt="" width="81" height="54"/>
+    </div>
+</body>
+</html>
